@@ -36,7 +36,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
             <Button variant="outline" className="rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
-              <Link href="/2025_CV.pdf" download target="_blank">
+              <Link href="/2025_CV.pdf" target="_blank">
                 Download CV
               </Link>
             </Button>
