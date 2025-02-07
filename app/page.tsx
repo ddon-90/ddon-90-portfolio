@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -26,7 +27,7 @@ export default function Home() {
 
         <div className="space-y-8 text-center sm:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold dark:text-white">Diego Donaggio</h1>
-          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-lg">
+          <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-lg text-justify">
             I began my career in an Engineering Studio as an Electric Industrial Engineer
             designing electrical and photovoltaic systems. Driven by a passion for IT, I pursued a degree
             in Computer Science and transitioned into a Software Engineer role. Over the years,
@@ -41,7 +42,9 @@ export default function Home() {
               variant="default"
               className="bg-black dark:bg-white text-white dark:text-black rounded-full px-8 py-6 text-lg"
             >
-              Explore More
+              <Link href="/experiences">
+                Explore More
+              </Link>
             </Button>
           </div>
         </div>

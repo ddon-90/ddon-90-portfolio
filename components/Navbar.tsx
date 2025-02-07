@@ -29,7 +29,9 @@ export default function Navbar() {
           {theme === "light" ? <Moon className="h-[1.2rem] w-[1.2rem]" /> : <Sun className="h-[1.2rem] w-[1.2rem]" />}
         </Button>
         <Button variant="default" className="bg-black dark:bg-white text-white dark:text-black rounded-full">
-          Hire/Collab
+          <Link href="/contact">
+            Hire/Collab
+          </Link>
         </Button>
       </div>
     </nav>
