@@ -35,11 +35,11 @@ export default function Home() {
             disciplines, progressively advancing to my current role as a Solution Engineer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
-            <Button variant="outline" className="rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
-              <Link href="/2025_CV.pdf" target="_blank">
+            <a href="/2025_CV.pdf" target="_blank">
+              <Button variant="outline" className="rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
                 Download CV
-              </Link>
-            </Button>
+              </Button>
+            </a>
             <Button
               variant="default"
               className="bg-black dark:bg-white text-white dark:text-black rounded-full px-8 py-6 text-lg"
