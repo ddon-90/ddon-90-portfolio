@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from '@vercel/analytics/next';
 import type { Metadata } from "next";
 import { Space_Mono } from "next/font/google";
 
@@ -21,9 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ThemeProvider>
-        <body className={spaceMono.className}>{children}</body>
-      </ThemeProvider>
+      <body className={spaceMono.className}>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+        <SpeedInsights/>
+        <Analytics/>
+      </body>
     </html>
   );
 }
