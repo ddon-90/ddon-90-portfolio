@@ -27,8 +27,11 @@ export default function Home() {
         <div className="space-y-8 text-center sm:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold dark:text-white">Diego Donaggio</h1>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-lg">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+            I began my career in an Engineering Studio as an Electric Industrial Engineer
+            designing electrical and photovoltaic systems. Driven by a passion for IT, I pursued a degree
+            in Computer Science and transitioned into a Software Engineer role. Over the years,
+            I have cultivated a diverse skill set through 10+ years of experience across various engineering
+            disciplines, progressively advancing to my current role as a Solution Engineer.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
             <Button variant="outline" className="rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">

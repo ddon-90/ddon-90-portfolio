@@ -25,7 +25,7 @@ export default function Navbar() {
         ))}
       </div>
       <div className="flex items-center gap-4">
-        <Button variant="outline" size="icon" onClick={toggleTheme}>
+        <Button aria-label="theme" variant="outline" size="icon" onClick={toggleTheme}>
           {theme === "light" ? <Moon className="h-[1.2rem] w-[1.2rem]" /> : <Sun className="h-[1.2rem] w-[1.2rem]" />}
         </Button>
         <Button variant="default" className="bg-black dark:bg-white text-white dark:text-black rounded-full">
