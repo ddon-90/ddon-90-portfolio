@@ -34,9 +34,9 @@ export default function Home() {
             I have cultivated a diverse skill set through 10+ years of experience across various engineering
             disciplines, progressively advancing to my current role as a Solution Engineer.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
+          <div className="flex flex-col lg:flex-row gap-4 justify-center sm:justify-start">
             <a href="/2025_CV.pdf" target="_blank">
-              <Button variant="outline" className="rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
+              <Button variant="outline" className="w-full rounded-full px-8 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
                 Download CV
               </Button>
             </a>
