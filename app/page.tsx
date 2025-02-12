@@ -11,9 +11,9 @@ export default function Home() {
     <main className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
       <Navbar />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-20 items-center max-w-7xl mx-auto mb-10 sm:mb-20">
-        <div className="relative mx-auto sm:mx-0" style={{ maxWidth: "400px", width: "100%" }}>
-          <div className="aspect-square relative rounded-full overflow-hidden bg-gradient-to-b from-zinc-200 to-zinc-300 dark:from-zinc-700 dark:to-zinc-800">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center max-w-7xl mx-auto mb-10 md:mb-20">
+        <div className="relative mx-auto md:mx-0 border-1-white" style={{ maxWidth: "400px", width: "100%" }}>
+          <div className="aspect-square relative rounded-t-3xl overflow-hidden bg-gradient-to-b from-zinc-200 to-zinc-300 dark:from-zinc-700 dark:to-zinc-800 border-4 border-black dark:border-zinc-700">
             <Image
               src="https://avatars.githubusercontent.com/u/38855585"
               alt="Profile"
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="space-y-8 text-center sm:text-left">
+        <div className="space-y-8 text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold dark:text-white">Diego Donaggio</h1>
           <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-lg text-justify">
             I began my career in an Engineering Studio as an Electric Industrial Engineer
