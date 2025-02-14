@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Diego Donaggio" }],
   openGraph: {
     title: "Diego Donaggio - My Portfolio",
-    description: "Personal Portfolio Website built with Next.js",
+    description: "Personal Portfolio Website built using Next.js",
     type: 'website',
     locale: 'en_US',
     url: "https://ddon-90-portfolio.vercel.app",
