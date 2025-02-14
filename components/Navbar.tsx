@@ -28,7 +28,7 @@ export default function Navbar() {
         <Button aria-label="theme" variant="outline" size="icon" onClick={toggleTheme}>
           {theme === "light" ? <Moon className="h-[1.2rem] w-[1.2rem]" /> : <Sun className="h-[1.2rem] w-[1.2rem]" />}
         </Button>
-        <Button variant="default" className="bg-black dark:bg-white text-white dark:text-black rounded-full">
+        <Button variant="default" className="text-base px-8 bg-black dark:bg-white text-white dark:text-black rounded-full">
           <Link href="/contact">
             Hire/Collab
           </Link>
