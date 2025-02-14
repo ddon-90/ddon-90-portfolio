@@ -34,15 +34,15 @@ export default function Home() {
             I have cultivated a diverse skill set through 10+ years of experience across various engineering
             disciplines, progressively advancing to my current role as a Solution Engineer.
           </p>
-          <div className="flex flex-col xl:flex-row gap-4 xl:gap-14 justify-center sm:justify-start">
-            <a href="/2025_CV.pdf" target="_blank">
-              <Button variant="outline" className="w-full rounded-full px-12 py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
+          <div className="flex flex-col xl:flex-row gap-4 xl:gap-14 justify-between">
+            <a className="w-full" href="/2025_CV.pdf" target="_blank">
+              <Button variant="outline" className="w-full rounded-full py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
                 Download CV
               </Button>
             </a>
             <Button
               variant="default"
-              className="bg-black dark:bg-white text-white dark:text-black rounded-full px-12 py-6 text-lg"
+              className="w-full bg-black dark:bg-white text-white dark:text-black rounded-full py-6 text-lg"
             >
               <Link href="/experiences">
                 Explore More
