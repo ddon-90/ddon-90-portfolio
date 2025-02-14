@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
+    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
       <Navbar />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center max-w-7xl mx-auto mb-10 md:mb-20">

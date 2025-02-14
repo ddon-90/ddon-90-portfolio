@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="flex flex-col sm:flex-row justify-between items-center max-w-7xl mx-auto mb-10 sm:mb-15 space-y-4 sm:space-y-0">
+    <nav role="navigation" className="flex flex-col sm:flex-row justify-between items-center max-w-7xl mx-auto mb-10 sm:mb-15 space-y-4 sm:space-y-0">
       <div className="flex gap-4 sm:gap-8 flex-wrap justify-center">
         {navItems.map((item) => (
           <Button key={item.name} variant="link" asChild>

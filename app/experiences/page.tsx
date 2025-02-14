@@ -44,7 +44,7 @@ const experiences = [
 
 export default function Experiences() {
   return (
-    <main className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
+    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
       <Navbar />
 
       <div className="max-w-4xl mx-auto my-12">

@@ -22,7 +22,7 @@ export default function Contact() {
   const [state, formAction, isPending] = useActionState(send, initialState);
 
   return (
-    <main className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
+    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
       <Navbar />
 
       <div className="max-w-2xl mx-auto my-12">
