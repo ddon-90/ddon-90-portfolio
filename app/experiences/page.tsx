@@ -11,9 +11,15 @@ import Footer from "@/components/Footer";
 const experiences = [
   {
     isCurrent: true,
+    title: "Solution Engineer & Tech Leader",
+    company: "Arsenalia",
+    period: "Apr 2025 - Present",
+    description: "As a Solution Engineer & Tech Leader at Arsenalia, I drive the end-to-end design, implementation, and successful delivery of tailored technology solutions. In the pre-sales phase, I collaborate with clients to understand their business challenges, develop proof-of-concept solutions, and deliver in-depth technical presentations. Acting as a subject matter expert, I guide technical discussions, address client queries, and contribute to RFPs and solution architecture documents. Beyond pre-sales, I lead the delivery team during project implementation, ensuring seamless execution of solutions while maintaining alignment with client expectations. I provide technical leadership, oversee solution architecture, and proactively address challenges to drive successful outcomes.",
+  },
+  {
     title: "Principal Solution Engineer",
     company: "VTEX",
-    period: "Sept 2022 - Present",
+    period: "Sep 2022 - Feb 2025",
     description: "As a Principal Solution Engineer at VTEX, I led the design and implementation of tailored technology solutions to meet client requirements. I collaborated with clients to understand their business challenges, developed proof-of-concept solutions, and delivered in-depth technical presentations. Acting as a subject matter expert, I guided technical discussions, addressed client queries during the pre-sales phase, and contributed to RFPs and solution architecture documents. Within the team, I provided leadership by mentoring junior engineers, fostering knowledge sharing, and driving best practices to enhance solution delivery. I also worked cross-functionally with sales, engineering, and customer success teams to ensure alignment between technical deliverables and business objectives.",
   },
   {
