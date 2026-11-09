@@ -33,7 +33,7 @@ export default function Home() {
             disciplines, progressively advancing to my current role as a Solution Engineer.
           </p>
           <div className="flex flex-col xl:flex-row gap-4 xl:gap-14 justify-between">
-            <a className="w-full" href="/2025_CV.pdf" target="_blank">
+            <a className="w-full" href="/2026_CV.pdf" target="_blank">
               <Button variant="outline" className="w-full rounded-full py-6 text-lg dark:text-white dark:hover:bg-zinc-800">
                 Download CV
               </Button>
