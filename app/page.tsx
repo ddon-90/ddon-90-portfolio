@@ -30,7 +30,7 @@ export default function Home() {
             designing electrical and photovoltaic systems. Driven by a passion for IT, I pursued a degree
             in Computer Science and transitioned into a Software Engineer role. Over the years,
             I have cultivated a diverse skill set through 10+ years of experience across various engineering
-            disciplines, progressively advancing to my current role as a Solution Engineer.
+            disciplines, progressively advancing to my current role as a Solution Engineer & Tech Leader.
           </p>
           <div className="flex flex-col xl:flex-row gap-4 xl:gap-14 justify-between">
             <a className="w-full" href="/2026_CV.pdf" target="_blank">
