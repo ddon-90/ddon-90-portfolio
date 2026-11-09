@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "npm update": true,
+        "set": true,
+        "npm audit": true,
+        "exit": true
+    }
+}

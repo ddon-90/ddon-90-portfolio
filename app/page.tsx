@@ -1,15 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import PageFrame from "@/components/PageFrame";
 
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
-      <Navbar />
+    <PageFrame>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center max-w-7xl mx-auto mb-10 md:mb-20">
         <div className="relative mx-auto md:mx-0 w-full max-w-md">
@@ -52,7 +50,6 @@ export default function Home() {
         </div>
       </div>
 
-      <Footer />
-    </main>
+    </PageFrame>
   )
 }

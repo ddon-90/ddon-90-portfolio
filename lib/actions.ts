@@ -30,7 +30,7 @@ export async function send(prevState: FormState, formData: FormData): Promise<Fo
   // the inputs inserted by the user in the form
   if (!validatedFields.success) {
     return {
-      errors: validatedFields.error.flatten().fieldErrors,
+      errors: z.flattenError(validatedFields.error).fieldErrors,
       inputs: { name, email, message },
       success: false
     }

@@ -2,8 +2,7 @@
 
 import { useActionState } from "react";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import PageFrame from "@/components/PageFrame";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -22,8 +21,7 @@ export default function Contact() {
   const [state, formAction, isPending] = useActionState(send, initialState);
 
   return (
-    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
-      <Navbar />
+    <PageFrame>
 
       <div className="max-w-2xl mx-auto my-12">
         <h1 className="text-3xl font-bold mb-8 text-center dark:text-white">Contact Me</h1>
@@ -106,8 +104,7 @@ export default function Contact() {
         </form>
       </div>
 
-      <Footer />
-    </main>
+    </PageFrame>
   )
 }
 

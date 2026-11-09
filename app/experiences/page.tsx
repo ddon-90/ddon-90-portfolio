@@ -5,8 +5,7 @@ import {
   CardHeader, CardTitle
 } from "@/components/ui/card";
 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import PageFrame from "@/components/PageFrame";
 
 const experiences = [
   {
@@ -50,8 +49,7 @@ const experiences = [
 
 export default function Experiences() {
   return (
-    <main role="main" className="min-h-screen bg-zinc-100 dark:bg-zinc-900 p-4 sm:p-8">
-      <Navbar />
+    <PageFrame>
 
       <div className="max-w-4xl mx-auto my-12">
         <h1 className="text-3xl font-bold mb-8 text-center dark:text-white">Work Experiences</h1>
@@ -79,8 +77,7 @@ export default function Experiences() {
         </div>
       </div>
 
-      <Footer />
-    </main>
+    </PageFrame>
   )
 }
 
